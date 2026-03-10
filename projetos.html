@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos - Ronis Soares</title>
+</head>
+<body>
+    <header>
+        <h1>Ronis Soares</h1>
+        <p>Desenvolvedor Frontend em Formação</p>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Meus Projetos</h1>
+        <p>Aqui estão os projetos que desenvolvi durante minha jornada de aprendizado. Cada
+            um representa um marco importante no meu desenvolvimento como programador.</p>
+
+        <section>
+            <h2>Projetos de HTML</h2>
+            
+            <article id="projeto1">
+                <h3>1. Primeira Página HTML</h3>
+                <p><strong>Data:</strong> Março 2026</p>
+                <p><strong>Tecnologias:</strong> HTML5</p>
+
+                <h4>Descrição</h4>
+                <p>Minha primeira página web criada durante a Aula 1 do curso. Uma página
+                   simples que demonstra o entedimentoda estrutura básica do HTML</p>
+
+                <h4> O que aprendi</h4>
+                <ul>
+                    <li>Tags semânticas: header, nav, main, section, article, aside, footer</li>
+                    <li>Hierarquia de títulos (h1-h6)</li>
+                    <li>Formulários acesíveis</li>
+                    <li>SEO básico com meta tags</li>
+                </ul>
+
+                <h4> Código</h4>
+                <p><a href="index.html">Ver site</a> | <a href="https://github.com/RonisDev26/" target="_blank">Ver Código
+                    no GitHub</a></p>
+            </article>
+        </section>
+
+        <section>
+            <h2>Algorítimos e Lógica</h2>
+
+            <article id="algoritimo1">
+                <h3>3. Calculadora de IMC</h3>
+                <p><strong>Data:</strong> Março 2026</p>
+                <p><strong>Tipo:</strong>Algorítimo/Pseudocódigo</p>
+
+                <h4>Descrição</h4>
+                <p>Algorítimo completo para calcular o Índice de Massa Corporal, incluindo
+                   validações, classificação e opção de repetir o cálculo.</p>
+
+                <h4>Funcionalidades</h4>
+                   <ul>
+                       <li>Entrada de peso e altura</li>
+                       <li>Cálculo do IMC (peso ÷ altura²)</li>
+                       <li>Classificação segundo tabela da OMS</li>
+                       <li>validação de dados inválidos</li>
+                       <li>Loop para multiplos cálculos</li>
+                   </ul>
+
+                <h4>Estruturas utilizadas</h4>
+                    <ul>
+                        <li><strong>Sequência:</strong> Passos organizados</li>
+                        <li><strong>Decisão:</strong> Classificação do IMC</li>
+                        <li><strong>Repetição:</strong> Opção de caluclar novamente</li>
+                        <li><strong>Variáveis:</strong> Armazenamento de dados</li>
+                    </ul>
+
+                    <details>
+                        <summary>Ver pseudocódigo completo</summary>
+                                <pre><code>
+                        1.INICIO
+                        2.peso, altura, imc, continuar ⬅️ VARIÁVEIS
+                        3.Repita
+                          3.1. Mostrar ''=== CALCULADORA DE IMC ===''
+                          3.2. Perguntar ''Digite o seu peso (kg):''
+                          3.3. LER peso
+                          3.4. SE peso <= 0 ENTÃO
+                               3.4.1. Mostrar ''Peso inválido!''
+                               3.4.2. VOLTAR para 3.2
+                          3.5. Perguntar ''Digite sua altura (m):''
+                          3.6. LER altura
+                          3.7. SE altura <= 0 ENTÃO
+                               3.7.1. Mostrar ''Altura inválida''
+                               3.7.2. VOLTAR para 3.5
+                          3.8. imc ⬅️ peso ÷ (altura x altura)
+                          3.9. Mostrar ''Seu IMC é: '' +imc
+                          3.10. SE imc < 18.5 ENTÃO
+                                Mostrar ''Calssifação: Abaixo do peso''
+                          3.11. SENÃO SE imc < 25 ENTÃO
+                                Mostrar ''Classificação: Peso normal''
+                          3.12. SENÃO SE imc < 30 ENTÃO
+                                Mostrar ''Classificação: Sobrepeso''
+                          3.13. SENÃO
+                                Mostrar ''Classificação: Obesidade''
+                          3.14. Perguntar ''Calcular para outra pessoa? (S/N)
+                          3.15. LER continuar
+                        4. ATÉ continuar = ''N''
+                        5. Mostrar ''Obrigado por usar a calculadora!''
+                        6. FIM                    
+                                </code></pre>
+                    </details>
+            </article>
+        </section>
+    </main>
+</body>
+</html>
