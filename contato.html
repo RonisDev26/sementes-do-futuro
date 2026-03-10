@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Contato - Ronis Soares</title>
+</head>
+<body>
+    <header>
+        <h1>Ronis Soares</h1>
+        <p>Desenvolvedor Frontend em Formação</p>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Entre em Contato</h1>
+        <p>Adoraria conversar com você! Seja para trocar ideias sobre programação,
+            fazer perguntas ou até mesmo discutir oportunidades.</p>
+        
+        <section>
+            <h2>📫 Formulário de Contato</h2>
+
+            <form action="#" method="POST">
+                <fieldset>
+                    <legend>Suas informações</legend>
+
+                    <div>
+                        <label for="nome">Nome Completo: *</label>
+                        <input type="text" id="nome" name="nome" 
+                        required placeholder="Digite seu nome completo">
+                    </div>
+
+                    <div>
+                        <label for="email">Email: *</label>
+                        <input type="email" id="email" name="email" required placeholder="seu@email.com">
+                    </div>
+
+                    <div>
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel" id="telefone" name="telefone" placeholder="(11)9999-9999">
+                    </div>
+
+                    <div>
+                        <label for="empresa">Empresa/Organização:</label>
+                        <input type="text" id="empresa" name="empresa" placeholder="Nome da sua empresa (opcional)">
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Sobre o Contato</legend>
+
+                    <div>
+                        <label for="assunto">Assunto: *</label>
+                        <select name="assunto" id="assunto"> required>
+                            <option value="">Selecione um assunto</option>
+                            <option value="oportunidade">Oportunidade de Trabalho</option>
+                            <option value="projeto">Projeto/Freelance</option>
+                            <option value="mentoria">Dúvidas sobre Programação</option>
+                            <option value="networking">Networking</option>
+                            <option value="outro">Outro</option>
+                        </select>
+                    </div>
+
+                    <div>
+                        <label for="urgencia">Urgência:</label>
+                        <div>
+                            <input type="radio" id="baixa" name="urgencia" value="baixa" checked>
+
+                        </div>
+                    </div>
+                </fieldset>
+        </section>
+    </main>
+</body>
+</html>
