@@ -74,10 +74,44 @@
                         <label for="urgencia">Urgência:</label>
                         <div>
                             <input type="radio" id="baixa" name="urgencia" value="baixa" checked>
-
+                             <label for="baixa">Baixa - Posso responder em até 1 semana</label> 
+                        </div>
+                        <div>
+                            <input type="radio" id="media" name="urgencia" value="media">
+                            <label for="media">Média - Resposta em 2-3 dias</label>
+                        </div>
+                        <div>
+                            <input type="radio" id="alta" name="urgencia" value="alta">
+                            <label for="alta">Alta - Preciso de resposta urgente</label>
                         </div>
                     </div>
+
+                    <div>
+                        <label for="mesagem">Mensagem: */label>
+                        <textarea name="mensagem" id="mensagem" rows="6" cols="50" required placeholder="Conte-me sobre o que você
+                        gostaria de conversar..."></textarea>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="copia" name="copia">
+                        <label for="copia">Enviar uma cópia para meu email</label>
+                    </div>
+
+                    <div>
+                        <input type="checkbox" id="privacidade" name="privacidade" required>
+                        <label for="privacidade">Li e aceito a <a href="#política">política de privacidade</a> *</label>
+                    </div>
                 </fieldset>
+
+                <div>
+                    <button type="submit"> 📧 Enviar Mensagem</button>
+                    <button type="reset"> 🔄 Limpar Formulário</button>
+                </div>
+            </form>    
+        </section>
+
+        <section>
+            <h2></h2>
         </section>
     </main>
 </body>
